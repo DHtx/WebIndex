@@ -1,0 +1,430 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+/*头部开始*/
+/*头部开始*/
+/*头部开始*/
+/*头部开始*/
+
+
+.header{
+    width: 100%;
+    height: 140px;
+    border-bottom: 1px solid #ddd;
+    background-color: palegoldenrod;
+}
+
+/*中间部分   进行居中   可应用到整个页面的剧中格式*/
+.wrap{
+    width: 1190px;
+    margin: auto;
+}
+
+/*头 中间部分的高度和背景色*/
+.header-box{
+    position: relative;
+    height: 140px;
+    background-color: aqua;
+}
+
+.logo{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+
+    /*分多次设置*/
+    background-image: url("./../images/shu.jpg");
+    background-repeat: no-repeat;
+    background-position:0 0;
+    background-color: #cccccc;
+}
+
+.search{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.search-m{
+    position: relative;
+    width: 1190px;
+    height: 60px;
+    margin: auto;
+}
+
+.search_logo{
+    display: none;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 125px;
+    height: 45px;
+
+
+    background-image: url("./../images/shu.jpg");
+    background-size: 50px 45px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /*background-color:black;*/
+}
+
+.form{
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    background-color: #ffffff;
+
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+}
+
+.keyword{
+    position: absolute;
+    top: 0;
+    width: 425px;
+    height: 26px;
+    padding: 2px 44px 2px 17px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+    color: #333;
+
+    /*把border的框线去掉*/
+    outline: none;
+}
+
+.form button{
+    position: absolute;
+    right: 0;
+
+    line-height: 32px;
+
+    width: 58px;
+    height: 32px;
+    border: none;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    /*webkit-transition: background .2s ease;*/
+    transition: background .2s ease;
+    cursor: pointer;
+}
+
+.search-helper{
+
+
+
+    display: none;
+
+    position: absolute;
+    top: 35px;
+
+    width: 488px;
+    /*height: 200px;*/
+    background-color: skyblue;
+    border: 1px solid #ccc;
+
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.search-helper p{
+    font-size: 14px;
+    height: 24px;
+    padding: 1px 6px;
+    line-height: 24px;
+
+    /*鼠标放上去显示小手*/
+    cursor: pointer;
+
+    font-size: 12px;
+    color: #666;
+}
+.search-helper p:hover{
+    background-color: red;
+}
+/*头部结束*/
+/*头部结束*/
+/*头部结束*/
+/*头部结束*/
+
+
+.body{
+    background-color: #f4f4f4;
+}
+
+
+/*轮播图开始*/
+/*轮播图开始*/
+/*轮播图开始*/
+/*轮播图开始*/
+.banner{
+    width: 100%;
+    height: 470px;
+    padding-top: 10px;
+    margin-bottom: 30px;
+    background-color: skyblue;
+}
+
+.banner-box{
+    height: 470px;
+    /*background-color: red;*/
+}
+
+.banner-slide{
+    width: 790px;
+    height: 470px;
+    background-color: palegreen;
+    margin:0 auto;
+
+}
+
+.banner-slide-slide{
+    position: relative;
+    width: 590px;
+    height: 470px;
+    background-color: pink;
+}
+
+.prev,.next{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 25px;
+    height: 35px;
+    line-height: 35px;
+    background-color: rgba(0,0,0,.5);
+    font-size: 20px;
+    transition: background-color .2s ease;
+}
+
+.prev{
+    left: 0;
+    border-radius: 0 18px 18px 0;
+}
+.next{
+    right: 0;
+    border-radius:18px 0 0 18px;
+}
+
+.banner-btn{
+    position: absolute;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    width: 121px;
+    height: 15px;
+}
+
+.banner-btn li{
+
+    /*取消自动填充的点*/
+    list-style-type: none;
+
+    float: left;
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgba(0,0,0,.5);
+    margin-right: 4px;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,4);
+}
+
+.banner-btn .active{
+    position: relative;
+    top: -2px;
+    width: 8px;
+    height: 8px;
+    border: 3px solid rgba(0,0,0,.1);
+    background-color: rgba(255,255,255,.8);
+}
+
+/*轮播图结束*/
+/*轮播图结束*/
+/*轮播图结束*/
+/*轮播图结束*/
+
+
+
+/*主体开始*/
+/*主体开始*/
+/*主体开始*/
+/*主体开始*/
+.content{
+    position: relative;
+
+    width: 100%;
+    text-align: center;
+
+}
+
+.miaosha{
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background-color: palegoldenrod;
+    margin-bottom: 20px;
+
+}
+
+.miaosha a{
+    position: absolute;
+    left: 555px;
+
+    bottom: 20px;
+
+    display: inline-block;
+    text-decoration: none;
+}
+
+.miaosha a:hover{
+    color: skyblue;
+}
+.miaosha a:active{
+    color: #e2231a;
+}
+
+
+.area{
+    position: absolute;
+    top: 70px;
+    left: 342px;
+
+    width: 506px;
+    height: 100px;
+    background-color: #666666;
+
+    overflow: hidden;
+
+}
+
+.area ul{
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    display: flex;
+
+}
+
+
+.area ul li{
+    /*变成一行*/
+
+    float: left;
+}
+
+.area ul li img{
+
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e1251b;
+
+
+    background-color: skyblue;
+
+}
+
+
+
+.youxuan{
+    height: 980px;
+    margin-bottom: 20px;
+    background-color: paleturquoise;
+}
+
+.guangchang{
+    height: 1005px;
+    margin-bottom: 20px;
+    background-color: skyblue;
+}
+
+.tuijian{
+    height: 1870px;
+    background-color: plum;
+}
+
+
+.elevator{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: 615px;
+
+    width: 58px;
+    height: 252px;
+    /*background-color: red;*/
+}
+
+.elevator p{
+    display: block;
+    width: 58px;
+    height: 38px;
+    line-height: 19px;
+    font-size: 14px;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    transition: color .2s ease;
+    background-color: darkgray;
+    text-decoration: none;
+}
+
+.elevator-fix{
+    position: fixed;
+    top: 75px;
+    animation: eleShow 0.5s ease;
+}
+
+/*动画*/
+@keyframes  eleShow{
+    0% {
+        top: 0;
+    }
+    100%{
+        top: 75px;
+    }
+}
+
+/*吸顶*/
+.search-fix{
+
+    position: fixed;
+    z-index: 100;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f10214;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 20%);
+
+    animation: searchTop 0.5s ease-in-out;
+
+}
+
+@keyframes searchTop {
+    0%{
+    top: -50px;
+    }
+    100%{
+        top:0;
+    }
+}
+
+/*主体结束*/
+/*主体结束*/
+/*主体结束*/
+/*主体结束*/
+
+
+
+
